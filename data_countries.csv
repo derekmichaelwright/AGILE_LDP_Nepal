@@ -1,0 +1,325 @@
+"Entry","Name","Origin","Cluster"
+1,"CDC Asterix AGL","Canada",7
+2,"CDC Rosie AGL","Canada",8
+3,"3156-11 AGL","Canada",8
+4,"CDC Greenstar AGL","Canada",7
+5,"CDC Cherie AGL","Canada",7
+6,"CDC Glamis AGL","Canada",8
+7,"CDC Gold AGL","Canada",7
+8,"CDC Imax AGL","Canada",7
+9,"CDC Impower AGL","Canada",7
+10,"CDC KR-1 AGL","Canada",3
+11,"CDC LeMay AGL","Canada",7
+12,"CDC Maxim AGL","Canada",3
+13,"CDC QG-1 AGL","Canada",8
+14,"CDC Red Rider AGL","Canada",8
+15,"CDC Redcoat AGL","Canada",7
+16,"CDC Redwing AGL","Canada",7
+17,"CDC Robin AGL","Canada",7
+18,"CDC Rosebud AGL","Canada",3
+19,"CDC Rosetown AGL","Canada",8
+20,"CDC Rouleau AGL","Canada",7
+21,"CDC Royale AGL","Canada",7
+22,"CDC Ruby AGL","Canada",3
+23,"CDC SB-1 AGL","Canada",4
+24,"CDC Sedley AGL","Canada",3
+25,"CDC Vantage AGL","Canada",3
+26,"CN 105604 AGL","Ethiopia",2
+27,"CN 105605 AGL","Eritrea",4
+28,"CN 105715 AGL","Ethiopia",4
+29,"CN 105732 AGL","Ethiopia",3
+30,"CN 105767 AGL","Libya",2
+31,"CN 105777 AGL","Egypt",1
+32,"CN 105789 AGL","Ethiopia",2
+33,"CN 105791 AGL","Egypt",1
+34,"CN 105862 AGL","Tunisia",7
+35,"CN 105863 AGL","Tunisia",7
+36,"CN 105864 AGL","Tunisia",7
+37,"CN 105865 AGL","Tunisia",7
+38,"CN 105895 AGL","Egypt",2
+39,"CN 106265 AGL","Egypt",7
+40,"CN 108369 AGL","Libya",7
+41,"CN 108370 AGL","Libya",8
+42,"Crimson AGL","USA",3
+43,"DPL 62 AGL","India",2
+44,"Eston AGL","Canada",4
+45,"Gudo AGL","Ethiopia",2
+46,"IG 1046 AGL","Egypt",4
+47,"IG 1706 AGL","Ethiopia",6
+48,"IG 1959 AGL","Ethiopia",4
+49,"IG 4258 AGL","India",2
+50,"IG 4781 AGL","Algeria",7
+51,"IG 858 AGL","Algeria",4
+52,"ILL 10657 AGL","Turkey",2
+53,"ILL 10748 AGL","ICARDA",1
+54,"ILL 11547 AGL","Ethiopia",1
+55,"ILL 11548 AGL","Ethiopia",1
+56,"ILL 11553 AGL","India",2
+57,"ILL 11555 AGL","India",1
+58,"ILL 11557 AGL","India",1
+59,"ILL 11558 AGL","India",1
+60,"ILL 1220 AGL","Iran",4
+61,"ILL 1553 AGL","Iran",4
+62,"ILL 1762 AGL","Afghanistan",6
+63,"ILL 1983 AGL","Ethiopia",2
+64,"ILL 213 AGL","Afghanistan",5
+65,"ILL 2194 AGL","Pakistan",5
+66,"PI 431893 LSP AGL","Iran",3
+67,"ILL 2507 AGL","India",2
+68,"ILL 2580 AGL","India",2
+69,"ILL 28 AGL","Syria",5
+70,"ILL 3025 AGL","India",2
+71,"ILL 313 AGL","Israel",5
+72,"ILL 3347 AGL","India",2
+73,"ILL 358 AGL","Ethiopia",5
+74,"ILL 3597 AGL","India",2
+75,"ILL 4164 AGL","India",5
+76,"ILL 4400 AGL","Syria",5
+77,"ILL 4605 AGL","Argentina",1
+78,"ILL 4609 AGL","Netherlands",5
+79,"ILL 4665 AGL","Hungary",3
+80,"ILL 4671 AGL","USA",7
+81,"ILL 4768 AGL","Yemen",2
+82,"ILL 4782 AGL","Unknown",2
+83,"ILL 4783 AGL","Czech Republic",7
+84,"ILL 4804 AGL","Libya",5
+85,"ILL 4875 AGL","Uzbekistan",8
+86,"ILL 4956 AGL","Portugal",7
+87,"ILL 5058 AGL","Spain",7
+88,"ILL 5151 AGL","India",5
+89,"ILL 5209 AGL","Jordan",5
+90,"ILL 5480 AGL","Czech Republic",7
+91,"ILL 5639 AGL","Ethiopia",4
+92,"ILL 5722 AGL","Turkey",2
+93,"ILL 5883 AGL","Jordan",5
+94,"ILL 5888 AGL","Bangladesh",1
+95,"ILL 5945 AGL","Ethiopia",2
+96,"ILL 6002 AGL","ICARDA",1
+97,"ILL 618 AGL","Tajikistan",4
+98,"ILL 6182 AGL","Tunisia",5
+99,"ILL 6211 AGL","ICARDA",1
+100,"ILL 624 AGL","Macedonia",7
+101,"ILL 6821 AGL","Ethiopia",5
+102,"ILL 6853 AGL","Syria",5
+103,"ILL 7089 AGL","Russia",4
+104,"ILL 7558 AGL","India",1
+105,"ILL 7663 AGL","ICARDA",1
+106,"ILL 7668 AGL","ICARDA",2
+107,"ILL 7716 AGL","India",1
+108,"ILL 7747 AGL","Syria",5
+109,"ILL 7946 AGL","Syria",5
+110,"ILL 7978 AGL","Ethiopia",2
+111,"ILL 7979 AGL","ICARDA",2
+112,"ILL 8007 AGL","Bangladesh",1
+113,"ILL 8009 AGL","Bangladesh",2
+114,"ILL 8010 AGL","Bangladesh",2
+115,"ILL 8072 AGL","India",5
+116,"ILL 8174 AGL","ICARDA",3
+117,"ILL 8595 AGL","Ecuador",4
+118,"ILL 9 AGL","Jordan",2
+119,"ILL 975 AGL","Chile",5
+120,"ILL 9888 AGL","ICARDA",2
+121,"ILL 9932 AGL","ICARDA",2
+122,"ILL 9945 AGL","ICARDA",2
+123,"ILL 9977 AGL","Jordan",2
+124,"ILL 9997 AGL","ICARDA",2
+125,"ILWL 118 AGL","Syria",3
+126,"Indianhead AGL","Canada",8
+127,"IPL 220 AGL","India",1
+128,"Laird AGL","Canada",8
+129,"LIRL-22-46 AGL","India",1
+130,"PI 163589 AGL","Guatemala",7
+131,"PI 169534 LSP AGL","Turkey",6
+132,"PI 175754 LSP AGL","Turkey",4
+133,"PI 177430 LSP AGL","Turkey",7
+134,"PI 178939 LSP AGL","Turkey",6
+135,"PI 178952 AGL","Turkey",4
+136,"PI 178971 LSP AGL","Turkey",6
+137,"PI 179324 LSP AGL","Turkey",6
+138,"PI 179330 AGL","Turkey",6
+139,"PI 181771 LSP AGL","Lebanon",7
+140,"PI 181886 LSP AGL","Syria",5
+141,"PI 182217 LSP AGL","Turkey",4
+142,"PI 193546 AGL","Ethiopia",5
+143,"PI 193547 LSP AGL","Ethiopia",7
+144,"PI 193548 LSP AGL","Ethiopia",2
+145,"PI 193550 AGL","Ethiopia",1
+146,"PI 207492 LSP AGL","Afghanistan",6
+147,"PI 518731 LSP AGL","Brazil",6
+148,"PI 209858 LSP AGL","Greece",8
+149,"PI 211052 LSP AGL","Afghanistan",6
+150,"PI 212100 LSP AGL","Afghanistan",6
+151,"PI 212610 LSP AGL","Afghanistan",7
+152,"PI 217949 LSP AGL","Pakistan",2
+153,"PI 238758 LSP AGL","Belgium",3
+154,"PI 244046 AGL","Yemen",1
+155,"PI 250156 LSP AGL","Pakistan",5
+156,"PI 250158 LSP AGL","Pakistan",2
+157,"PI 251248 LSP AGL","Egypt",1
+158,"PI 273664 LSP AGL","Ethiopia",6
+159,"PI 280686 AGL","Egypt",2
+160,"PI 283604 LSP AGL","Portugal",7
+161,"PI 289066 AGL","Czech Republic",8
+162,"PI 289073 LSP AGL","Hungary",7
+163,"PI 289079 LSP AGL","Egypt",7
+164,"PI 290716 LSP AGL","Unknown",7
+165,"PI 297285 LSP AGL","Argentina",7
+166,"PI 297287 AGL","Argentina",6
+167,"PI 297754 LSP AGL","Greece",6
+168,"PI 297767 AGL","Greece",7
+169,"PI 297772 LSP AGL","Greece",7
+170,"PI 297783 AGL","Ethiopia",2
+171,"PI 297787 LSP AGL","Russia",6
+172,"PI 298023 LSP AGL","Turkey",4
+173,"PI 298121 LSP AGL","France",3
+174,"PI 298122 LSP AGL","France",7
+175,"PI 298357 LSP AGL","Egypt",4
+176,"PI 298631 LSP AGL","Peru",8
+177,"PI 298644 LSP AGL","Spain",8
+178,"PI 298645 AGL","Spain",7
+179,"PI 298921 AGL","Italy",5
+180,"PI 298922 LSP AGL","Italy",6
+181,"PI 298923 LSP AGL","Italy",4
+182,"PI 299116 LSP AGL","Mexico",4
+183,"PI 299120 LSP AGL","Mexico",3
+184,"PI 299121 LSP AGL","Mexico",2
+185,"PI 299126 LSP AGL","Mexico",5
+186,"PI 299163 LSP AGL","Chile",7
+187,"PI 299164 LSP AGL","Chile",4
+188,"PI 299165 AGL","Chile",7
+189,"PI 299177 LSP AGL","Chile",6
+190,"PI 299237 LSP AGL","Chile",4
+191,"PI 299289 AGL","Chile",7
+192,"PI 299312 AGL","Chile",7
+193,"PI 299345 AGL","Chile",7
+194,"PI 299351 LSP AGL","Chile",6
+195,"PI 299366 LSP AGL","Chile",5
+196,"PI 299375 LSP AGL","Chile",5
+197,"PI 300250 LSP AGL","Syria",5
+198,"PI 302398 LSP AGL","Jordan",2
+199,"PI 308614 LSP AGL","Syria",7
+200,"PI 311107 LSP AGL","Guatemala",7
+201,"PI 312175 LSP AGL","Mexico",7
+202,"PI 320935 LSP AGL","Iran",4
+203,"PI 320936 LSP AGL","Russia",3
+204,"PI 320937 LSP AGL","Germany",8
+205,"CN 105866 AGL","Tunisia",7
+206,"PI 320941 LSP AGL","Ethiopia",6
+207,"PI 320945 LSP AGL","Bulgaria",6
+208,"PI 320946 LSP AGL","Israel",5
+209,"PI 320952 LSP AGL","Czech Republic",8
+210,"PI 320953 LSP AGL","Germany",8
+211,"PI 320954 LSP AGL","Hungary",7
+212,"PI 329157 LSP AGL","Iran",4
+213,"PI 329167 LSP AGL","Iran",4
+214,"PI 339266 LSP AGL","Turkey",4
+215,"PI 339283 LSP AGL","Turkey",5
+216,"PI 339285 AGL","Turkey",5
+217,"PI 339289 LSP AGL","Turkey",4
+218,"PI 339292 LSP AGL","Turkey",4
+219,"PI 339296 AGL","Turkey",4
+220,"PI 343026 LSP AGL","Tajikistan",4
+221,"PI 345627 LSP AGL","Ukraine",8
+222,"PI 358602 LSP AGL","Ethiopia",7
+223,"PI 368647 LSP AGL","Macedonia",7
+224,"PI 368651 LSP AGL","Macedonia",7
+225,"PI 370481 LSP AGL","Serbia",7
+226,"PI 374116 LSP AGL","Morocco",7
+227,"PI 374117 LSP AGL","Morocco",5
+228,"PI 374118 AGL","Morocco",5
+229,"PI 374120 LSP AGL","Morocco",7
+230,"PI 374121 AGL","Morocco",4
+231,"PI 379368 LSP AGL","Macedonia",4
+232,"PI 383682 LSP AGL","Turkey",6
+233,"PI 420818 AGL","Greece",7
+234,"PI 420924 LSP AGL","Jordan",5
+235,"PI 420925 LSP AGL","Jordan",5
+236,"PI 420929 LSP AGL","Jordan",5
+237,"PI 426202 LSP AGL","Afghanistan",6
+238,"PI 426778 LSP AGL","Pakistan",6
+239,"PI 426784 LSP AGL","Pakistan",2
+240,"PI 426797 LSP AGL","Pakistan",2
+241,"PI 426807 LSP AGL","Pakistan",5
+242,"PI 431618 LSP AGL","Iran",4
+243,"PI 431622 LSP AGL","Iran",6
+244,"PI 431630 LSP AGL","Iran",6
+245,"PI 431633 LSP AGL","Iran",4
+246,"PI 431636 LSP AGL","Iran",4
+247,"PI 431643 LSP AGL","Iran",4
+248,"PI 431662 LSP AGL","Iran",6
+249,"PI 431663 LSP AGL","Iran",6
+250,"PI 431679 LSP AGL","Egypt",6
+251,"PI 431684 LSP AGL","Iran",6
+252,"PI 431705 LSP AGL","Iran",4
+253,"PI 431710 LSP AGL","Iran",6
+254,"PI 431714 LSP AGL","Iran",6
+255,"PI 431717 LSP AGL","Iran",6
+256,"PI 431728 LSP AGL","Iran",6
+257,"PI 431731 LSP AGL","Iran",6
+258,"PI 431739 LSP AGL","Iran",4
+259,"PI 431753 LSP AGL","Iran",4
+260,"PI 431756 LSP AGL","Iran",6
+261,"PI 431809 LSP AGL","Iran",4
+262,"PI 431824 LSP AGL","Iran",4
+263,"PI 431863 LSP AGL","Iran",6
+264,"PI 431873 LSP AGL","Iran",6
+265,"PI 431884 LSP AGL","Iran",4
+266,"PI 431888 LSP AGL","Iran",6
+267,"PI 431923 LSP AGL","Iran",6
+268,"PI 431980 LSP AGL","Iran",4
+269,"PI 432000 LSP AGL","Iran",6
+270,"PI 432001 LSP AGL","Iran",6
+271,"PI 432002 LSP AGL","Iran",6
+272,"PI 432005 LSP AGL","Iran",5
+273,"PI 432028 LSP AGL","Iran",6
+274,"PI 432033 LSP AGL","Iran",6
+275,"PI 432085 LSP AGL","Iran",4
+276,"PI 432106 LSP AGL","Iran",4
+277,"PI 432124 LSP AGL","Iran",4
+278,"PI 432145 LSP AGL","Iran",6
+279,"PI 432147 LSP AGL","Iran",6
+280,"PI 432184 LSP AGL","Iran",4
+281,"PI 432188 LSP AGL","Iran",4
+282,"PI 432190 LSP AGL","Iran",7
+283,"PI 432201 LSP AGL","Iran",6
+284,"PI 432212 LSP AGL","Iran",6
+285,"PI 432236 LSP AGL","Jordan",6
+286,"PI 432245 LSP AGL","Lebanon",4
+287,"PI 432271 LSP AGL","Turkey",8
+288,"PI 432286 LSP AGL","Egypt",7
+289,"PI 451763 LSP AGL","USA",4
+290,"PI 458503 LSP AGL","Mexico",4
+291,"PI 468900 LSP AGL","Brazil",7
+292,"PI 468901 AGL","Brazil",8
+293,"PI 468902 LSP AGL","Brazil",4
+294,"PI 472136 LSP AGL","India",2
+295,"PI 472205 LSP AGL","India",1
+296,"PI 472213 LSP AGL","India",4
+297,"PI 472327 LSP AGL","India",2
+298,"PI 472380 LSP AGL","India",2
+299,"PI 472416 LSP AGL","India",2
+300,"PI 472488 LSP AGL","India",2
+301,"PI 472559 LSP AGL","India",2
+302,"PI 472561 LSP AGL","India",2
+303,"PI 472569 LSP AGL","Egypt",2
+304,"PI 472588 LSP AGL","Egypt",6
+305,"PI 472590 LSP AGL","Lebanon",5
+306,"PI 472615 LSP AGL","Jordan",2
+307,"PI 472629 LSP AGL","Iran",4
+308,"PI 477921 LSP AGL","USA",4
+309,"PI 490288 LSP AGL","France",7
+310,"PI 490289 LSP AGL","France",6
+311,"PI 508090 AGL","USA",4
+312,"PI 518733 LSP AGL","Brazil",8
+313,"PI 518734 LSP AGL","Brazil",8
+314,"PI 533688 LSP AGL","Spain",7
+315,"PI 533693 LSP AGL","Spain",7
+316,"PI 612875 AGL","Syria",5
+317,"PI 643451 AGL","Ethiopia",2
+318,"PI 643452 AGL","Syria",2
+319,"Shasta AGL","USA",3
+320,"W6 27754 LSP AGL","USDA",8
+321,"W6 27760 LSP AGL","USDA",3
+322,"W6 27763 LSP AGL","USDA",5
+323,"W6 27766 LSP AGL","USDA",2
+324,"W6 27767 LSP AGL","USDA",5
