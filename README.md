@@ -10,7 +10,7 @@ Derek Michael Wright <derek.wright@usask.ca>
 Dhakal and Kirstin Bett. (2021) **Strategic Identification of New
 Genetic Diversity to Expand Lentil (*Lens culinaris* Medik.) Production
 (Using Nepal as an Example)**. *Agronomy*. 11(10):
-1933.](https://www.mdpi.com/2073-4395/11/10/1933/htm)
+1933.](https://doi.org/10.3390/agronomy11101933)
 
 which is a follow-up to:
 
@@ -21,8 +21,7 @@ Reena Mehra, Ashutosh Sarker, Rajeev Dhakal, Babul Anwar, Debashish
 Sarker, Albert Vandenberg, and Kirstin Bett. (2020) **Understanding
 photothermal interactions can help expand production range and increase
 genetic diversity of lentil (*Lens culinaris* Medik.)**. *Plants,
-People, Planet*.
-00:1-11.](https://nph.onlinelibrary.wiley.com/doi/10.1002/ppp3.10158)
+People, Planet*. 00:1-11.](https://doi.org/10.1002/ppp3.10158)
 
 <https://github.com/derekmichaelwright/AGILE_LDP_Phenology>
 
