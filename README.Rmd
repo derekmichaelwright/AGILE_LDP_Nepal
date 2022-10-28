@@ -1,5 +1,6 @@
 ---
 title: "Strategic Identification of New Genetic Diversity to Expand Lentil (*Lens culinaris* Medik.) Production (Using Nepal as an Example)"
+subtitle: "*Agronomy*. 11(10): 1933."
 author: "Derek Michael Wright <derek.wright@usask.ca>"
 date: "27-09-2021"
 output: 
@@ -9,9 +10,9 @@ output:
     gallery: true
     highlight: tango
     css: custom.css
+  github_document: default
   pdf_document:
     toc: yes
-  github_document: default
 ---
 
 ```{r setup, include=FALSE}
