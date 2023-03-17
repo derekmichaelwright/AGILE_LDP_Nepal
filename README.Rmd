@@ -10,18 +10,18 @@ output:
     gallery: true
     highlight: tango
     css: custom.css
-  github_document: default
   pdf_document:
     toc: yes
+  github_document: default
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-\pagebreak
-
 ---
+
+\pagebreak
 
 [Sandesh Neupane, Rajeev Dhakal, Derek Wright, Deny Shrestha, Bishnu Dhakal and Kirstin Bett. (2021) **Strategic Identification of New Genetic Diversity to Expand Lentil (*Lens culinaris* Medik.) Production (Using Nepal as an Example)**. *Agronomy*. 11(10): 1933.](https://doi.org/10.3390/agronomy11101933)
 
@@ -49,7 +49,7 @@ https://github.com/derekmichaelwright/AGILE_LDP_Nepal
 
 # Figure 1
 
-![](Figure_01.png)
+![](Figure_01.png){width=90%}
 
 ---
 
@@ -61,13 +61,15 @@ https://github.com/derekmichaelwright/AGILE_LDP_Nepal
 
 # Figure 3
 
-https://derekmichaelwright.github.io/AGILE_LDP_Nepal/Figure_03.html
-
 ![](Figure_03.png)
 
 ---
 
+\pagebreak
+
 # Figure 4
+
+https://derekmichaelwright.github.io/AGILE_LDP_Nepal/Figure_05.html
 
 ![](Figure_04.png)
 

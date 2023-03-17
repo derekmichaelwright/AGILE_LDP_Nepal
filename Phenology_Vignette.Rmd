@@ -193,7 +193,7 @@ new.lab <- as_labeller(c(lab_Jumla1 = "italic(T)==3.72~degree*C~+~italic(P)==11.
 
 ```{r}
 # Plot
-mp <- ggplot(dd, aes(x = Expt, y = Value, 
+mp <- ggplot(dd, aes(x = Expt, y = Value, group = Expt,
                      color = Cluster, alpha = Selection)) +
   geom_quasirandom(size = 0.75, pch = 16) +
   scale_color_manual(values = myColors_Cluster) +
@@ -234,31 +234,14 @@ ggsave("Figure_02.png", mp, width = 8, height = 4)
 
 ## Area
 
-```{r echo = F}
-downloadthis::download_link(
-  link = "https://derekmichaelwright.github.io/AGILE_LDP_Nepal/Figure_03.html",
-  button_label = "Figure_03.html",
-  button_type = "success",
-  has_icon = TRUE,
-  icon = "fas fa-chart-line",
-  self_contained = FALSE
-)
-```
-
-<iframe
-  src="Figure_03.html"
-  style="width:100%; height:600px;"
-  data-external="1"
-></iframe>
-
 ![](Figure_03.png)
 
 ```{r}
 # Plot
-mp <- ggplot(dd, aes(x = Origin, y = Value, alpha = Selection,
-                     color = Cluster, key1 = Entry, key2 = Name)) +
-  geom_quasirandom(pch = 16) +
+mp <- ggplot(dd) +
   geom_hline(data = myThresholds, aes(yintercept = Cutoff), alpha = 0.7) +
+  geom_quasirandom(aes(x = Origin, y = Value, group = Origin,
+                       alpha = Selection, color = Cluster)) +
   facet_grid(Expt + Label ~ Area, scales = "free", space = "free_x", 
              labeller = labeller(Area = label_value, Expt = label_value,
                                  Label = new.lab)) +
@@ -270,24 +253,24 @@ mp <- ggplot(dd, aes(x = Origin, y = Value, alpha = Selection,
   labs(title = "Predicted DTF in Nepal",
        y = "Days from sowing to flowering")
 ggsave("Figure_03.png", mp, width = 10, height = 8)
-# Interactive
-mp <- ggplotly(mp)
-saveWidget(mp, file="Figure_03.html")
 ```
 
 ---
 
 ## Region
 
+https://derekmichaelwright.github.io/AGILE_LDP_Nepal/Figure_04.html
+
 ![](Figure_04.png)
 
 ```{r}
 # Plot
-mp <- ggplot(dd, aes(x = Origin, y = Value, 
-                     color = Cluster, alpha = Selection)) +
-  geom_quasirandom(pch = 16) +
+mp <- ggplot(dd) +
   geom_hline(data = myThresholds, aes(yintercept = Cutoff), alpha = 0.7) +
-  facet_grid(Expt + Label ~ Region, scales = "free", space = "free_x",
+  geom_quasirandom(aes(x = Origin, y = Value, group = Origin,
+                       alpha = Selection, color = Cluster,
+                       key1 = Entry, key2 = Name)) +
+  facet_grid(Expt + Label ~ Region, scales = "free", space = "free_x", drop = T,
              labeller = labeller(Area = label_value, Expt = label_value,
                                  Label = new.lab)) +
   scale_color_manual(name = NULL, values = myColors_Cluster) +
@@ -298,6 +281,24 @@ mp <- ggplot(dd, aes(x = Origin, y = Value,
   labs(title = "Predicted DTF in Nepal",
        y = "Days from sowing to flowering", x = NULL)
 ggsave("Figure_04.png", mp, width = 10, height = 8)
+mp <- ggplotly(mp)
+saveWidget(mp, file="Figure_05.html")
+```
+
+```{r eval = F, echo = F}
+# Interactive
+mp <- ggplot(dd) +
+  geom_hline(data = myThresholds, aes(yintercept = Cutoff), alpha = 0.7) +
+  geom_quasirandom(aes(x = Origin, y = Value, alpha = Selection, group = Origin,
+                       color = Cluster, key1 = Entry, key2 = Name)) +
+  scale_color_manual(name = NULL, values = myColors_Cluster) +
+  scale_alpha_manual(values = c(0.3, 0.9)) +
+  theme_AGL +
+  theme(legend.position = "none",
+        axis.text.x = element_text(angle = 45, hjust = 1)) +
+  labs(title = "Predicted DTF in Nepal",
+       y = "Days from sowing to flowering")
+
 ```
 
 ---

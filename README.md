@@ -46,7 +46,7 @@ HTML](https://derekmichaelwright.github.io/AGILE_LDP_Nepal/README.html)
 
 # Figure 1
 
-![](Figure_01.png)
+<img src="Figure_01.png" style="width:90.0%" />
 
 ------------------------------------------------------------------------
 
@@ -58,13 +58,13 @@ HTML](https://derekmichaelwright.github.io/AGILE_LDP_Nepal/README.html)
 
 # Figure 3
 
-<https://derekmichaelwright.github.io/AGILE_LDP_Nepal/Figure_03.html>
-
 ![](Figure_03.png)
 
 ------------------------------------------------------------------------
 
 # Figure 4
+
+<https://derekmichaelwright.github.io/AGILE_LDP_Nepal/Figure_05.html>
 
 ![](Figure_04.png)
 
