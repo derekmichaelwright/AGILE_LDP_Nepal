@@ -40,7 +40,7 @@ HTML](https://derekmichaelwright.github.io/AGILE_LDP_Nepal/README.html)
 
 # AGILE Project
 
-![](img_Agile.png)
+![](Additional/img_Agile.png)
 
 ------------------------------------------------------------------------
 
@@ -64,7 +64,7 @@ HTML](https://derekmichaelwright.github.io/AGILE_LDP_Nepal/README.html)
 
 # Figure 4
 
-<https://derekmichaelwright.github.io/AGILE_LDP_Nepal/Figure_05.html>
+<https://derekmichaelwright.github.io/AGILE_LDP_Nepal/Figure_04.html>
 
 ![](Figure_04.png)
 
