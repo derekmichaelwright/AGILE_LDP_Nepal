@@ -43,11 +43,11 @@ This work done as part of the AGILE project at the University of Saskatchewan.
 
 Load the nessesary R packages, Prepare the data for analysis.
 
-<font size="5"> `r shiny::icon("save")` [data_countries.csv](data_countries.csv) </font>
+`r shiny::icon("save")` [data_countries.csv](data_countries.csv)
 
-<font size="5"> `r shiny::icon("save")` [data_pca_results.csv](data_pca_results.csv) </font>
+`r shiny::icon("save")` [data_pca_results.csv](data_pca_results.csv)
 
-<font size="5"> `r shiny::icon("save")` [model_t+p_coefs.csv](model_t+p_coefs.csv) </font>
+`r shiny::icon("save")` [model_t+p_coefs.csv](model_t+p_coefs.csv)
 
 ```{r echo = F}
 downloadthis::download_link(
@@ -267,7 +267,7 @@ ggsave("Figure_03.png", mp, width = 10, height = 8)
 
 ## Region
 
-https://derekmichaelwright.github.io/AGILE_LDP_Nepal/Figure_04.html
+`r shiny::icon("globe")` https://derekmichaelwright.github.io/AGILE_LDP_Nepal/Figure_04.html
 
 ![](Figure_04.png)
 
@@ -312,7 +312,7 @@ mp <- ggplot(dd) +
 
 # model_nepal.csv
 
-<font size="5"> `r shiny::icon("save")` [model_nepal.csv](model_nepal.csv) </font>
+`r shiny::icon("save")` [model_nepal.csv](model_nepal.csv)
 
 ```{r echo = F}
 downloadthis::download_link(
