@@ -23,15 +23,13 @@ knitr::opts_chunk$set(echo = TRUE, message = F, warning = F, comment = NA, out.w
 
 This vignette contains some of the `r shiny::icon("r-project")` code and analysis to go along with the paper: 
 
-`r shiny::icon("newspaper")` [Sandesh Neupane, Rajeev Dhakal, Derek M. Wright, Deny K. Shrestha, Bishnu Dhakal and Kirstin E. Bett. **Strategic Identification of New Genetic Diversity to Expand Lentil (*Lens culinaris* Medik.) Production (Using Nepal as an Example)**. *Agronomy*. (**2021**) 11(10): 1933. doi.org/10.3390/agronomy11101933](https://doi.org/10.3390/agronomy11101933)
-
-`r shiny::icon("github")` https://github.com/derekmichaelwright/AGILE_LDP_Nepal
+> - `r shiny::icon("newspaper")` [Sandesh Neupane, Rajeev Dhakal, Derek M. Wright, Deny K. Shrestha, Bishnu Dhakal and Kirstin E. Bett. **Strategic Identification of New Genetic Diversity to Expand Lentil (*Lens culinaris* Medik.) Production (Using Nepal as an Example)**. *Agronomy*. (**2021**) 11(10): 1933. doi.org/10.3390/agronomy11101933](https://doi.org/10.3390/agronomy11101933)
+> - `r shiny::icon("github")` https://github.com/derekmichaelwright/AGILE_LDP_Nepal
 
 which is a follow-up to:
 
-`r shiny::icon("newspaper")` [Derek M. Wright, Sandesh Neupane, Taryn Heidecker, Teketel A. Haile, Crystal Chan, Clarice J. Coyne, Rebecca J. McGee, Sripada Udupa, Fatima Henkrar, Eleonora Barilli, Diego Rubiales, Tania Gioia, Giuseppina Logozzo, Stefania Marzario, Reena Mehra, Ashutosh Sarker, Rajeev Dhakal, Babul Anwar, Debashish Sarker, Albert Vandenberg & Kirstin E. Bett **Understanding photothermal interactions can help expand production range and increase genetic diversity of lentil (*Lens culinaris* Medik.)**. *Plants, People, Planet*. (**2020**) 00:1-11. doi.org/10.1002/ppp3.10158](https://doi.org/10.1002/ppp3.10158)
-
-`r shiny::icon("github")` https://github.com/derekmichaelwright/AGILE_LDP_Phenology
+> - `r shiny::icon("newspaper")` [Derek M. Wright, Sandesh Neupane, Taryn Heidecker, Teketel A. Haile, Crystal Chan, Clarice J. Coyne, Rebecca J. McGee, Sripada Udupa, Fatima Henkrar, Eleonora Barilli, Diego Rubiales, Tania Gioia, Giuseppina Logozzo, Stefania Marzario, Reena Mehra, Ashutosh Sarker, Rajeev Dhakal, Babul Anwar, Debashish Sarker, Albert Vandenberg & Kirstin E. Bett **Understanding photothermal interactions can help expand production range and increase genetic diversity of lentil (*Lens culinaris* Medik.)**. *Plants, People, Planet*. (**2020**) 00:1-11. doi.org/10.1002/ppp3.10158](https://doi.org/10.1002/ppp3.10158)
+> - `r shiny::icon("github")` https://github.com/derekmichaelwright/AGILE_LDP_Phenology
 
 This work done as part of the AGILE project at the University of Saskatchewan.
 
@@ -41,40 +39,11 @@ This work done as part of the AGILE project at the University of Saskatchewan.
 
 # Data Preparation
 
-Load the nessesary R packages, Prepare the data for analysis.
+Load the nessesary R packages and prepare the data for analysis.
 
-`r shiny::icon("save")` [data_countries.csv](data_countries.csv)
-
-`r shiny::icon("save")` [data_pca_results.csv](data_pca_results.csv)
-
-`r shiny::icon("save")` [model_t+p_coefs.csv](model_t+p_coefs.csv)
-
-```{r echo = F}
-downloadthis::download_link(
-  link = "data_countries.csv",
-  button_label = "data_countries.csv",
-  button_type = "success",
-  has_icon = TRUE,
-  icon = "fa fa-save",
-  self_contained = F
-)
-downloadthis::download_link(
-  link = "data_pca_results.csv",
-  button_label = "data_pca_results.csv",
-  button_type = "success",
-  has_icon = TRUE,
-  icon = "fa fa-save",
-  self_contained = F
-)
-downloadthis::download_link(
-  link = "model_t+p_coefs.csv",
-  button_label = "model_t+p_coefs.csv",
-  button_type = "success",
-  has_icon = TRUE,
-  icon = "fa fa-save",
-  self_contained = F
-)
-```
+> - `r shiny::icon("save")` [data_countries.csv](data_countries.csv)
+> - `r shiny::icon("save")` [data_pca_results.csv](data_pca_results.csv)
+> - `r shiny::icon("save")` [model_t+p_coefs.csv](model_t+p_coefs.csv)
 
 ```{r}
 #install.packages(c("tidyverse","ggbeeswarm","plotly","htmlwidgets"))
@@ -267,7 +236,7 @@ ggsave("Figure_03.png", mp, width = 10, height = 8)
 
 ## Region
 
-`r shiny::icon("globe")` https://derekmichaelwright.github.io/AGILE_LDP_Nepal/Figure_04.html
+> - `r shiny::icon("globe")` https://derekmichaelwright.github.io/AGILE_LDP_Nepal/Figure_04.html
 
 ![](Figure_04.png)
 
@@ -312,18 +281,7 @@ mp <- ggplot(dd) +
 
 # model_nepal.csv
 
-`r shiny::icon("save")` [model_nepal.csv](model_nepal.csv)
-
-```{r echo = F}
-downloadthis::download_link(
-  link = "model_nepal.csv",
-  button_label = "model_nepal.csv",
-  button_type = "success",
-  has_icon = TRUE,
-  icon = "fa fa-save",
-  self_contained = F
-)
-```
+> - `r shiny::icon("save")` [model_nepal.csv](model_nepal.csv)
 
 ## Banke
 
