@@ -23,7 +23,7 @@ which is a follow-up to:
 >   Vandenberg & Kirstin E. Bett **Understanding photothermal
 >   interactions can help expand production range and increase genetic
 >   diversity of lentil (*Lens culinaris* Medik.)**. *Plants, People,
->   Planet*. (**2020**) 00:1-11.
+>   Planet*. (**2021**) 3(2): 171-181.
 >   doi.org/10.1002/ppp3.10158](https://doi.org/10.1002/ppp3.10158)
 > - <https://github.com/derekmichaelwright/AGILE_LDP_Phenology>
 
