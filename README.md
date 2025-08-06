@@ -6,36 +6,42 @@ Derek Michael Wright <derek.wright@usask.ca>
 
 ------------------------------------------------------------------------
 
-> - [Sandesh Neupane, Rajeev Dhakal, Derek M. Wright, Deny K. Shrestha,
->   Bishnu Dhakal and Kirstin E. Bett. **Strategic Identification of New
->   Genetic Diversity to Expand Lentil (*Lens culinaris* Medik.)
->   Production (Using Nepal as an Example)**. *Agronomy*. (**2021**)
->   11(10): 1933.
->   doi.org/10.3390/agronomy11101933](https://doi.org/10.3390/agronomy11101933)
+> - <a href="https://doi.org/10.3390/agronomy11101933"
+>   target="_blank">Sandesh Neupane, Rajeev Dhakal, Derek M. Wright, Deny K.
+>   Shrestha, Bishnu Dhakal and Kirstin E. Bett. <strong>Strategic
+>   Identification of New Genetic Diversity to Expand Lentil (<em>Lens
+>   culinaris</em> Medik.) Production (Using Nepal as an Example)</strong>.
+>   <em>Agronomy</em>. (<strong>2021</strong>) 11(10): 1933.
+>   doi.org/10.3390/agronomy11101933</a>
 
 which is a follow-up to:
 
-> - [Derek M. Wright, Sandesh Neupane, Taryn Heidecker, Teketel A.
->   Haile, Crystal Chan, Clarice J. Coyne, Rebecca J. McGee, Sripada
->   Udupa, Fatima Henkrar, Eleonora Barilli, Diego Rubiales, Tania
->   Gioia, Giuseppina Logozzo, Stefania Marzario, Reena Mehra, Ashutosh
->   Sarker, Rajeev Dhakal, Babul Anwar, Debashish Sarker, Albert
->   Vandenberg & Kirstin E. Bett **Understanding photothermal
->   interactions can help expand production range and increase genetic
->   diversity of lentil (*Lens culinaris* Medik.)**. *Plants, People,
->   Planet*. (**2021**) 3(2): 171-181.
->   doi.org/10.1002/ppp3.10158](https://doi.org/10.1002/ppp3.10158)
-> - <https://github.com/derekmichaelwright/AGILE_LDP_Phenology>
+> - <a href="https://doi.org/10.1002/ppp3.10158" target="_blank">Derek M.
+>   Wright, Sandesh Neupane, Taryn Heidecker, Teketel A. Haile, Crystal
+>   Chan, Clarice J. Coyne, Rebecca J. McGee, Sripada Udupa, Fatima Henkrar,
+>   Eleonora Barilli, Diego Rubiales, Tania Gioia, Giuseppina Logozzo,
+>   Stefania Marzario, Reena Mehra, Ashutosh Sarker, Rajeev Dhakal, Babul
+>   Anwar, Debashish Sarker, Albert Vandenberg &amp; Kirstin E. Bett
+>   <strong>Understanding photothermal interactions can help expand
+>   production range and increase genetic diversity of lentil (<em>Lens
+>   culinaris</em> Medik.)</strong>. <em>Plants, People, Planet</em>.
+>   (<strong>2021</strong>) 3(2): 171-181. doi.org/10.1002/ppp3.10158</a>
+> - <a href="https://github.com/derekmichaelwright/AGILE_LDP_Phenology"
+>   target="_blank">https://github.com/derekmichaelwright/AGILE_LDP_Phenology</a>
 
 ------------------------------------------------------------------------
 
-> - <https://github.com/derekmichaelwright/AGILE_LDP_Nepal>
-> - [View as
->   pdf](https://github.com/derekmichaelwright/AGILE_LDP_Nepal/raw/master/README.pdf)
-> - [View as
->   HTML](https://derekmichaelwright.github.io/AGILE_LDP_Nepal/README.html)
-> - [Source Code Vignette
->   (Phenology_Vignette.html)](https://derekmichaelwright.github.io/AGILE_LDP_Nepal/Phenology_Vignette.html)
+> - <a href="https://github.com/derekmichaelwright/AGILE_LDP_Nepal"
+>   target="_blank">https://github.com/derekmichaelwright/AGILE_LDP_Nepal</a>
+> - <a
+>   href="https://github.com/derekmichaelwright/AGILE_LDP_Nepal/raw/master/README.pdf"
+>   target="_blank">View as pdf</a>
+> - <a
+>   href="https://derekmichaelwright.github.io/AGILE_LDP_Nepal/README.html"
+>   target="_blank">View as HTML</a>
+> - <a
+>   href="https://derekmichaelwright.github.io/AGILE_LDP_Nepal/Phenology_Vignette.html"
+>   target="_blank">Source Code Vignette (Phenology_Vignette.html)</a>
 
 # AGILE Project
 
@@ -63,7 +69,9 @@ which is a follow-up to:
 
 # Figure 4
 
-> - <https://derekmichaelwright.github.io/AGILE_LDP_Nepal/Figure_04.html>
+> - <a
+>   href="https://derekmichaelwright.github.io/AGILE_LDP_Nepal/Figure_04.html"
+>   target="_blank">https://derekmichaelwright.github.io/AGILE_LDP_Nepal/Figure_04.html</a>
 
 ![](Figure_04.png)
 

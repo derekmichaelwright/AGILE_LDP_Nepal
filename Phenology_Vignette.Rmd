@@ -23,13 +23,13 @@ knitr::opts_chunk$set(echo = TRUE, message = F, warning = F, comment = NA, out.w
 
 This vignette contains some of the `r shiny::icon("r-project")` code and analysis to go along with the paper: 
 
-> - `r shiny::icon("newspaper")` [Sandesh Neupane, Rajeev Dhakal, Derek M. Wright, Deny K. Shrestha, Bishnu Dhakal and Kirstin E. Bett. **Strategic Identification of New Genetic Diversity to Expand Lentil (*Lens culinaris* Medik.) Production (Using Nepal as an Example)**. *Agronomy*. (**2021**) 11(10): 1933. doi.org/10.3390/agronomy11101933](https://doi.org/10.3390/agronomy11101933)
-> - `r shiny::icon("github")` https://github.com/derekmichaelwright/AGILE_LDP_Nepal
+> - `r shiny::icon("newspaper")` [Sandesh Neupane, Rajeev Dhakal, Derek M. Wright, Deny K. Shrestha, Bishnu Dhakal and Kirstin E. Bett. **Strategic Identification of New Genetic Diversity to Expand Lentil (*Lens culinaris* Medik.) Production (Using Nepal as an Example)**. *Agronomy*. (**2021**) 11(10): 1933. doi.org/10.3390/agronomy11101933](https://doi.org/10.3390/agronomy11101933){target="_blank"}
+> - `r shiny::icon("github")` [https://github.com/derekmichaelwright/AGILE_LDP_Nepal](https://github.com/derekmichaelwright/AGILE_LDP_Nepal){target="_blank"}
 
 which is a follow-up to:
 
-> - `r shiny::icon("newspaper")` [Derek M. Wright, Sandesh Neupane, Taryn Heidecker, Teketel A. Haile, Crystal Chan, Clarice J. Coyne, Rebecca J. McGee, Sripada Udupa, Fatima Henkrar, Eleonora Barilli, Diego Rubiales, Tania Gioia, Giuseppina Logozzo, Stefania Marzario, Reena Mehra, Ashutosh Sarker, Rajeev Dhakal, Babul Anwar, Debashish Sarker, Albert Vandenberg & Kirstin E. Bett **Understanding photothermal interactions can help expand production range and increase genetic diversity of lentil (*Lens culinaris* Medik.)**. *Plants, People, Planet*. (**2021**) 3(2): 171-181. doi.org/10.1002/ppp3.10158](https://doi.org/10.1002/ppp3.10158)
-> - `r shiny::icon("github")` https://github.com/derekmichaelwright/AGILE_LDP_Phenology
+> - `r shiny::icon("newspaper")` [Derek M. Wright, Sandesh Neupane, Taryn Heidecker, Teketel A. Haile, Crystal Chan, Clarice J. Coyne, Rebecca J. McGee, Sripada Udupa, Fatima Henkrar, Eleonora Barilli, Diego Rubiales, Tania Gioia, Giuseppina Logozzo, Stefania Marzario, Reena Mehra, Ashutosh Sarker, Rajeev Dhakal, Babul Anwar, Debashish Sarker, Albert Vandenberg & Kirstin E. Bett **Understanding photothermal interactions can help expand production range and increase genetic diversity of lentil (*Lens culinaris* Medik.)**. *Plants, People, Planet*. (**2021**) 3(2): 171-181. doi.org/10.1002/ppp3.10158](https://doi.org/10.1002/ppp3.10158){target="_blank"}
+> - `r shiny::icon("github")` [https://github.com/derekmichaelwright/AGILE_LDP_Phenology](https://github.com/derekmichaelwright/AGILE_LDP_Phenology){target="_blank"}
 
 This work done as part of the AGILE project at the University of Saskatchewan.
 
@@ -59,7 +59,8 @@ theme_AGL <- theme_bw() +
         panel.border       = element_rect(colour = "black", size = 0.5),
         panel.grid         = element_line(color  = alpha("black", 0.1), size = 0.5),
         panel.grid.minor.x = element_blank(), 
-        panel.grid.major.x = element_blank())
+        panel.grid.major.x = element_blank(),
+        legend.key = element_rect(color = NA))
 # General color palettes 
 myColors_Cluster <- c("darkred",   "darkorange3", "darkgoldenrod2", "deeppink3", 
                  "steelblue", "darkorchid4", "cornsilk4",      "darkgreen")
@@ -93,12 +94,9 @@ where:
 - $T$: Mean temperature
 - $P$: Mean photoperiod
 
-<br>
-
-- Jumla1: $T$ = 3.72 | $P$ = 11.88
-- Jumla2: $T$ = 8.12 | $P$ = 13.06
-- Banke: $T$ = 23.52 | $P$ = 11.18
-- Kathmandu: $T$ = 13.8 | $P$ = 11.2
+```{r echo = F}
+DT::datatable(read.csv("data_env.csv"))
+```
 
 ```{r}
 # Predict DTF
@@ -153,18 +151,19 @@ myThresholds <- data.frame(Expt = c("Jumla1", "Jumla2", "Banke", "Kathmandu"),
 dd <- dd %>% 
   mutate(Label = paste0("lab_", Expt),
          Label = factor(Label, levels = myLabels))
-new.lab <- as_labeller(c(lab_Jumla1 = "italic(T)==3.72~degree*C~+~italic(P)==11.88~h", 
-                         lab_Jumla2 = "italic(T)==8.12~degree*C~+~italic(P)==13.06~h", 
-                         lab_Banke = "italic(T)==23.52~degree*C~+~italic(P)==11.18~h", 
-                         lab_Kathmandu = "italic(T)==13.8~degree*C~+~italic(P)==11.2~h"), 
-                       label_parsed)
+new.lab <- as_labeller(
+  c(Jumla1 = "Jumla1", Jumla2 = "Jumla2",
+    Banke = "Banke", Kathmandu = "Kathmandu",
+    lab_Jumla1 = "italic(T)==3.72~degree*C~+~italic(P)==11.88~h", 
+    lab_Jumla2 = "italic(T)==8.12~degree*C~+~italic(P)==13.06~h", 
+    lab_Banke = "italic(T)==23.52~degree*C~+~italic(P)==11.18~h", 
+    lab_Kathmandu = "italic(T)==13.8~degree*C~+~italic(P)==11.2~h"), 
+  label_parsed )
 ```
 
 ---
 
-# Predicted DTF
-
-## All Data
+# Figure 1
 
 ![](Figure_01.png)
 
@@ -185,7 +184,7 @@ ggsave("Figure_01.png", mp, width = 6, height = 4)
 
 ---
 
-## By DTF Cluster Group
+# Figure 2
 
 ![](Figure_02.png)
 
@@ -207,9 +206,7 @@ ggsave("Figure_02.png", mp, width = 8, height = 4)
 
 ---
 
-# By Origin
-
-## Area
+# Figure 3
 
 ![](Figure_03.png)
 
@@ -227,16 +224,16 @@ mp <- ggplot(dd) +
   theme_AGL +
   theme(legend.position = "none",
         axis.text.x = element_text(angle = 45, hjust = 1)) +
-  labs(title = "Predicted DTF in Nepal",
+  labs(title = "Predicted DTF in Nepal", x = NULL,
        y = "Days from sowing to flowering")
 ggsave("Figure_03.png", mp, width = 10, height = 8)
 ```
 
 ---
 
-## Region
+# Figure 4
 
-> - `r shiny::icon("globe")` https://derekmichaelwright.github.io/AGILE_LDP_Nepal/Figure_04.html
+> - `r shiny::icon("globe")` [https://derekmichaelwright.github.io/AGILE_LDP_Nepal/Figure_04.html](https://derekmichaelwright.github.io/AGILE_LDP_Nepal/Figure_04.html){target="_blank"}
 
 ![](Figure_04.png)
 
@@ -255,31 +252,16 @@ mp <- ggplot(dd) +
   theme_AGL +
   theme(legend.position = "none",
         axis.text.x = element_text(angle = 45, hjust = 1)) +
-  labs(title = "Predicted DTF in Nepal",
-       y = "Days from sowing to flowering", x = NULL)
+  labs(title = "Predicted DTF in Nepal", x = NULL,
+       y = "Days from sowing to flowering")
 ggsave("Figure_04.png", mp, width = 10, height = 8)
 mp <- ggplotly(mp)
 saveWidget(mp, file="Figure_04.html")
 ```
 
-```{r eval = F, echo = F}
-# Interactive
-mp <- ggplot(dd) +
-  geom_hline(data = myThresholds, aes(yintercept = Cutoff), alpha = 0.7) +
-  geom_quasirandom(aes(x = Origin, y = Value, alpha = Selection, group = Origin,
-                       color = Cluster, key1 = Entry, key2 = Name)) +
-  scale_color_manual(name = NULL, values = myColors_Cluster) +
-  scale_alpha_manual(values = c(0.3, 0.9)) +
-  theme_AGL +
-  theme(legend.position = "none",
-        axis.text.x = element_text(angle = 45, hjust = 1)) +
-  labs(title = "Predicted DTF in Nepal",
-       y = "Days from sowing to flowering")
-```
-
 ---
 
-# model_nepal.csv
+# Tables
 
 > - `r shiny::icon("save")` [model_nepal.csv](model_nepal.csv)
 
