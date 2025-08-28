@@ -33,9 +33,7 @@ which is a follow-up to:
 
 > - <a href="https://github.com/derekmichaelwright/AGILE_LDP_Nepal"
 >   target="_blank">https://github.com/derekmichaelwright/AGILE_LDP_Nepal</a>
-> - <a
->   href="https://github.com/derekmichaelwright/AGILE_LDP_Nepal/raw/master/README.pdf"
->   target="_blank">View as pdf</a>
+> - [View as pdf](README.pdf)
 > - <a
 >   href="https://derekmichaelwright.github.io/AGILE_LDP_Nepal/README.html"
 >   target="_blank">View as HTML</a>
@@ -71,7 +69,7 @@ which is a follow-up to:
 
 > - <a
 >   href="https://derekmichaelwright.github.io/AGILE_LDP_Nepal/Figure_04.html"
->   target="_blank">https://derekmichaelwright.github.io/AGILE_LDP_Nepal/Figure_04.html</a>
+>   target="_blank">Figure_04.html</a>
 
 ![](Figure_04.png)
 
@@ -79,7 +77,7 @@ which is a follow-up to:
 
 # model_nepal.csv
 
-> - [model_nepal.csv](https://raw.githubusercontent.com/derekmichaelwright/AGILE_LDP_Nepal/master/model_nepal.csv)
+> - [model_nepal.csv](model_nepal.csv)
 
 ------------------------------------------------------------------------
 

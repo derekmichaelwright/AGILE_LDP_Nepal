@@ -1,6 +1,6 @@
 ---
 title: "Strategic Identification of New Genetic Diversity to Expand Lentil (*Lens culinaris* Medik.) Production (Using Nepal as an Example)"
-subtitle: "*Agronomy*. (2021) 11(10): 1933. doi.org/10.3390/agronomy11101933"
+subtitle: "*Agronomy*. (2021) 11(10): 1933."
 author: "Derek Michael Wright <derek.wright@usask.ca>"
 date: "27-09-2021"
 output: 
@@ -10,9 +10,9 @@ output:
     gallery: yes
     highlight: tango
     css: custom.css
+  github_document: default
   pdf_document:
     toc: yes
-  github_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -33,7 +33,7 @@ which is a follow-up to:
 ---
 
 > - [https://github.com/derekmichaelwright/AGILE_LDP_Nepal](https://github.com/derekmichaelwright/AGILE_LDP_Nepal){target="_blank"}
-> - [View as pdf](https://github.com/derekmichaelwright/AGILE_LDP_Nepal/raw/master/README.pdf){target="_blank"} 
+> - [View as pdf](README.pdf)
 > - [View as HTML](https://derekmichaelwright.github.io/AGILE_LDP_Nepal/README.html){target="_blank"}
 > - [Source Code Vignette (Phenology_Vignette.html)](https://derekmichaelwright.github.io/AGILE_LDP_Nepal/Phenology_Vignette.html){target="_blank"}
 
@@ -65,7 +65,7 @@ which is a follow-up to:
 
 # Figure 4
 
-> - [https://derekmichaelwright.github.io/AGILE_LDP_Nepal/Figure_04.html](https://derekmichaelwright.github.io/AGILE_LDP_Nepal/Figure_04.html){target="_blank"}
+> - [Figure_04.html](https://derekmichaelwright.github.io/AGILE_LDP_Nepal/Figure_04.html){target="_blank"}
 
 ![](Figure_04.png)
 
@@ -73,7 +73,7 @@ which is a follow-up to:
 
 # model_nepal.csv
 
-> - [model_nepal.csv](https://raw.githubusercontent.com/derekmichaelwright/AGILE_LDP_Nepal/master/model_nepal.csv)
+> - [model_nepal.csv](model_nepal.csv)
 
 ---
 

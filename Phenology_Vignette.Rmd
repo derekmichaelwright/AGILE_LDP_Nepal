@@ -1,6 +1,6 @@
 ---
 title: "Strategic Identification of New Genetic Diversity to Expand Lentil (*Lens culinaris* Medik.) Production (Using Nepal as an Example)"
-subtitle: "*Agronomy*. (2021) 11(10): 1933. doi.org/10.3390/agronomy11101933"
+subtitle: "*Agronomy*. (2021) 11(10): 1933."
 author: "Derek Michael Wright <derek.wright@usask.ca>"
 date: "27-09-2021"
 output:
@@ -233,7 +233,7 @@ ggsave("Figure_03.png", mp, width = 10, height = 8)
 
 # Figure 4
 
-> - `r shiny::icon("globe")` [https://derekmichaelwright.github.io/AGILE_LDP_Nepal/Figure_04.html](https://derekmichaelwright.github.io/AGILE_LDP_Nepal/Figure_04.html){target="_blank"}
+> - `r shiny::icon("globe")` [AGILE_LDP_Nepal/Figure_04.html](AGILE_LDP_Nepal/Figure_04.html){target="_blank"}
 
 ![](Figure_04.png)
 
